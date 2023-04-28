@@ -10,7 +10,9 @@ seed-paths: ["seeds"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
 
-target-path: "target"
+target-path: ../build
+log-path: ../logs
+packages-install-path: ../dbt
 clean-targets:
   - "target"
   - "dbt_packages"
